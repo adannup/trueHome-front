@@ -1,14 +1,27 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './styles/index.scss';
 
-const Header = ({ title }) => <h1>{title}</h1>;
+const Header = ({ logo }) => (
+  <div className="container-fluid">
+    <div className="row">
+      <div className="col-md-12 header">
+        <div className="row">
+          <div className="col-md-10 offset-md-1">
+            <img src={logo} alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
-Header.defaultProps = {
-  title: 'Title Header'
-};
+// Header.defaultProps = {
+//   title: 'Title Header'
+// };
 
 Header.propTypes = {
-  title: PropTypes.string
+  logo: PropTypes.string.isRequired
 };
 
 export default Header;
