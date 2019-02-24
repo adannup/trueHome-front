@@ -49,7 +49,7 @@ class WebpackConfig {
           ]
         },
         {
-          test: /\.scss$/,
+          test: /\.(css|scss)$/,
           use: cssConfig
         },
         {
