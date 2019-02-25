@@ -1,8 +1,17 @@
-## Eslint rules examples
+# Demo: https://boiling-taiga-93670.herokuapp.com/
 
-- [rules explained by Shopify](https://github.com/Shopify/javascript)
+# TrueHome
 
-## Eslint rules error
+This project has been created with React from Facebook.
 
-- [Eslint class-methods.use-this](https://eslint.org/docs/rules/class-methods-use-this)
-- [[Discussion] class-methods-use-this](https://github.com/Shopify/javascript/issues/263)
+## Webpack Setup
+
+- Webpack Version: 4
+
+## NPM Script Instructions
+
+npm run [script]
+
+- install: Install all necessary packages
+- start: Run the app on mode Develop
+- build: Create a build production
