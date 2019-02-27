@@ -1,0 +1,11 @@
+$transition-time: 0.3s;
+
+.card-propiedad {
+  cursor: pointer;
+  transition: all $transition-time;
+
+  &:hover {
+    transition: all $transition-time;
+    box-shadow: 4px 4px 9px #888;
+  }
+}
